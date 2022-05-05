@@ -33,7 +33,7 @@ __ORDER TO RUN SCRIPTS__
 
 __SCRIPTS USED TO MAKE MANUSCRIPT FIGURES__
 
--Figure 1A: [07_Bar_Graph.Rmd](https://github.com/HerrLab/Graham_2022_ssDNA_Virome_Cress/blob/main/CODE/07_Tax_Bar_Graph.Rmd)
--Figure 2A: [06_Heatmap_Cress.Rmd](https://github.com/HerrLab/Graham_2022_ssDNA_Virome_Cress/blob/main/CODE/06_Heatmap_Cress.Rmd)
--Figure 2B: [06_Heatmap_Cress.Rmd](https://github.com/HerrLab/Graham_2022_ssDNA_Virome_Cress/blob/main/CODE/06_Heatmap_Cress.Rmd)
--All other figures were generated using [iTOL](https://itol.embl.de) and [Cytoscape](https://cytoscape.org)
+- Figure 1A: [07_Bar_Graph.Rmd](https://github.com/HerrLab/Graham_2022_ssDNA_Virome_Cress/blob/main/CODE/07_Tax_Bar_Graph.Rmd)
+- Figure 2A: [06_Heatmap_Cress.Rmd](https://github.com/HerrLab/Graham_2022_ssDNA_Virome_Cress/blob/main/CODE/06_Heatmap_Cress.Rmd)
+- Figure 2B: [06_Heatmap_Cress.Rmd](https://github.com/HerrLab/Graham_2022_ssDNA_Virome_Cress/blob/main/CODE/06_Heatmap_Cress.Rmd)
+- All other figures were generated using [iTOL](https://itol.embl.de) and [Cytoscape](https://cytoscape.org)
