@@ -39,714 +39,8 @@ mkdir Raw_Control_Reads
 #There are many ways to download the data from SRA. You can either manually download from the SRA website or use fastq-dump from the sratoolkit.
 #manuals on fastq-dump and strtoolkit can be found here: https://hpc.nih.gov/apps/sratoolkit.html
 
-fastq-dump SRR15442278
-fastq-dump SRR15442277
-fastq-dump SRR15442533
-fastq-dump SRR15442813
-fastq-dump SRR15442456
-fastq-dump SRR15442217
-fastq-dump SRR15442505
-fastq-dump SRR15442721
-fastq-dump SRR15442300
-fastq-dump SRR15442289
-fastq-dump SRR15442276
-fastq-dump SRR15442265
-fastq-dump SRR15442254
-fastq-dump SRR15442243
-fastq-dump SRR15442482
-fastq-dump SRR15442652
-fastq-dump SRR15442609
-fastq-dump SRR15442598
-fastq-dump SRR15442587
-fastq-dump SRR15442544
-fastq-dump SRR15442532
-fastq-dump SRR15442521
-fastq-dump SRR15442965
-fastq-dump SRR15442954
-fastq-dump SRR15442943
-fastq-dump SRR15442932
-fastq-dump SRR15442921
-fastq-dump SRR15442910
-fastq-dump SRR15442835
-fastq-dump SRR15442824
-fastq-dump SRR15442812
-fastq-dump SRR15442801
-fastq-dump SRR15442790
-fastq-dump SRR15442779
-fastq-dump SRR15442768
-fastq-dump SRR15442757
-fastq-dump SRR15442746
-fastq-dump SRR15442703
-fastq-dump SRR15442692
-fastq-dump SRR15442681
-fastq-dump SRR15442455
-fastq-dump SRR15442444
-fastq-dump SRR15442401
-fastq-dump SRR15442390
-fastq-dump SRR15442379
-fastq-dump SRR15442336
-fastq-dump SRR15442325
-fastq-dump SRR15442314
-fastq-dump SRR15442239
-fastq-dump SRR15442228
-fastq-dump SRR15442216
-fastq-dump SRR15442205
-fastq-dump SRR15442194
-fastq-dump SRR15442183
-fastq-dump SRR15442635
-fastq-dump SRR15442624
-fastq-dump SRR15442613
-fastq-dump SRR15442570
-fastq-dump SRR15442559
-fastq-dump SRR15442548
-fastq-dump SRR15442504
-fastq-dump SRR15442493
-fastq-dump SRR15442481
-fastq-dump SRR15442894
-fastq-dump SRR15442883
-fastq-dump SRR15442872
-fastq-dump SRR15442861
-fastq-dump SRR15442850
-fastq-dump SRR15442743
-fastq-dump SRR15442732
-fastq-dump SRR15442720
-fastq-dump SRR15442677
-fastq-dump SRR15442666
-fastq-dump SRR15442473
-fastq-dump SRR15442430
-fastq-dump SRR15442419
-fastq-dump SRR15442408
-fastq-dump SRR15442365
-fastq-dump SRR15442354
-fastq-dump SRR15442343
-fastq-dump SRR15442299
-fastq-dump SRR15442298
-fastq-dump SRR15442297
-fastq-dump SRR15442296
-fastq-dump SRR15442295
-fastq-dump SRR15442294
-fastq-dump SRR15442293
-fastq-dump SRR15442292
-fastq-dump SRR15442291
-fastq-dump SRR15442290
-fastq-dump SRR15442288
-fastq-dump SRR15442287
-fastq-dump SRR15442286
-fastq-dump SRR15442285
-fastq-dump SRR15442284
-fastq-dump SRR15442283
-fastq-dump SRR15442282
-fastq-dump SRR15442281
-fastq-dump SRR15442280
-fastq-dump SRR15442279
-fastq-dump SRR15442275
-fastq-dump SRR15442274
-fastq-dump SRR15442273
-fastq-dump SRR15442272
-fastq-dump SRR15442271
-fastq-dump SRR15442270
-fastq-dump SRR15442269
-fastq-dump SRR15442268
-fastq-dump SRR15442267
-fastq-dump SRR15442266
-fastq-dump SRR15442264
-fastq-dump SRR15442263
-fastq-dump SRR15442262
-fastq-dump SRR15442261
-fastq-dump SRR15442260
-fastq-dump SRR15442259
-fastq-dump SRR15442258
-fastq-dump SRR15442257
-fastq-dump SRR15442256
-fastq-dump SRR15442255
-fastq-dump SRR15442253
-fastq-dump SRR15442252
-fastq-dump SRR15442251
-fastq-dump SRR15442250
-fastq-dump SRR15442249
-fastq-dump SRR15442248
-fastq-dump SRR15442247
-fastq-dump SRR15442246
-fastq-dump SRR15442245
-fastq-dump SRR15442244
-fastq-dump SRR15442178
-fastq-dump SRR15442177
-fastq-dump SRR15442176
-fastq-dump SRR15442175
-fastq-dump SRR15442174
-fastq-dump SRR15442173
-fastq-dump SRR15442172
-fastq-dump SRR15442171
-fastq-dump SRR15442170
-fastq-dump SRR15442169
-fastq-dump SRR15442662
-fastq-dump SRR15442661
-fastq-dump SRR15442660
-fastq-dump SRR15442659
-fastq-dump SRR15442658
-fastq-dump SRR15442657
-fastq-dump SRR15442656
-fastq-dump SRR15442655
-fastq-dump SRR15442654
-fastq-dump SRR15442653
-fastq-dump SRR15442651
-fastq-dump SRR15442650
-fastq-dump SRR15442649
-fastq-dump SRR15442648
-fastq-dump SRR15442647
-fastq-dump SRR15442646
-fastq-dump SRR15442645
-fastq-dump SRR15442644
-fastq-dump SRR15442643
-fastq-dump SRR15442642
-fastq-dump SRR15442608
-fastq-dump SRR15442607
-fastq-dump SRR15442606
-fastq-dump SRR15442605
-fastq-dump SRR15442604
-fastq-dump SRR15442603
-fastq-dump SRR15442602
-fastq-dump SRR15442601
-fastq-dump SRR15442600
-fastq-dump SRR15442599
-fastq-dump SRR15442597
-fastq-dump SRR15442596
-fastq-dump SRR15442595
-fastq-dump SRR15442594
-fastq-dump SRR15442593
-fastq-dump SRR15442592
-fastq-dump SRR15442591
-fastq-dump SRR15442590
-fastq-dump SRR15442589
-fastq-dump SRR15442588
-fastq-dump SRR15442586
-fastq-dump SRR15442585
-fastq-dump SRR15442584
-fastq-dump SRR15442583
-fastq-dump SRR15442582
-fastq-dump SRR15442581
-fastq-dump SRR15442580
-fastq-dump SRR15442579
-fastq-dump SRR15442578
-fastq-dump SRR15442545
-fastq-dump SRR15442543
-fastq-dump SRR15442542
-fastq-dump SRR15442541
-fastq-dump SRR15442540
-fastq-dump SRR15442539
-fastq-dump SRR15442538
-fastq-dump SRR15442537
-fastq-dump SRR15442536
-fastq-dump SRR15442535
-fastq-dump SRR15442534
-fastq-dump SRR15442531
-fastq-dump SRR15442530
-fastq-dump SRR15442529
-fastq-dump SRR15442528
-fastq-dump SRR15442527
-fastq-dump SRR15442526
-fastq-dump SRR15442525
-fastq-dump SRR15442524
-fastq-dump SRR15442523
-fastq-dump SRR15442522
-fastq-dump SRR15442520
-fastq-dump SRR15442519
-fastq-dump SRR15442518
-fastq-dump SRR15442517
-fastq-dump SRR15442516
-fastq-dump SRR15442515
-fastq-dump SRR15442514
-fastq-dump SRR15442968
-fastq-dump SRR15442967
-fastq-dump SRR15442966
-fastq-dump SRR15442964
-fastq-dump SRR15442963
-fastq-dump SRR15442962
-fastq-dump SRR15442961
-fastq-dump SRR15442960
-fastq-dump SRR15442959
-fastq-dump SRR15442958
-fastq-dump SRR15442957
-fastq-dump SRR15442956
-fastq-dump SRR15442955
-fastq-dump SRR15442953
-fastq-dump SRR15442952
-fastq-dump SRR15442951
-fastq-dump SRR15442950
-fastq-dump SRR15442949
-fastq-dump SRR15442948
-fastq-dump SRR15442947
-fastq-dump SRR15442946
-fastq-dump SRR15442945
-fastq-dump SRR15442944
-fastq-dump SRR15442942
-fastq-dump SRR15442941
-fastq-dump SRR15442940
-fastq-dump SRR15442939
-fastq-dump SRR15442938
-fastq-dump SRR15442937
-fastq-dump SRR15442936
-fastq-dump SRR15442935
-fastq-dump SRR15442934
-fastq-dump SRR15442933
-fastq-dump SRR15442931
-fastq-dump SRR15442930
-fastq-dump SRR15442929
-fastq-dump SRR15442928
-fastq-dump SRR15442927
-fastq-dump SRR15442926
-fastq-dump SRR15442925
-fastq-dump SRR15442924
-fastq-dump SRR15442923
-fastq-dump SRR15442922
-fastq-dump SRR15442920
-fastq-dump SRR15442919
-fastq-dump SRR15442918
-fastq-dump SRR15442917
-fastq-dump SRR15442916
-fastq-dump SRR15442915
-fastq-dump SRR15442914
-fastq-dump SRR15442913
-fastq-dump SRR15442912
-fastq-dump SRR15442911
-fastq-dump SRR15442909
-fastq-dump SRR15442908
-fastq-dump SRR15442907
-fastq-dump SRR15442906
-fastq-dump SRR15442905
-fastq-dump SRR15442840
-fastq-dump SRR15442839
-fastq-dump SRR15442838
-fastq-dump SRR15442837
-fastq-dump SRR15442836
-fastq-dump SRR15442834
-fastq-dump SRR15442833
-fastq-dump SRR15442832
-fastq-dump SRR15442831
-fastq-dump SRR15442830
-fastq-dump SRR15442829
-fastq-dump SRR15442828
-fastq-dump SRR15442827
-fastq-dump SRR15442826
-fastq-dump SRR15442825
-fastq-dump SRR15442823
-fastq-dump SRR15442822
-fastq-dump SRR15442821
-fastq-dump SRR15442820
-fastq-dump SRR15442819
-fastq-dump SRR15442818
-fastq-dump SRR15442817
-fastq-dump SRR15442816
-fastq-dump SRR15442815
-fastq-dump SRR15442814
-fastq-dump SRR15442811
-fastq-dump SRR15442810
-fastq-dump SRR15442809
-fastq-dump SRR15442808
-fastq-dump SRR15442807
-fastq-dump SRR15442806
-fastq-dump SRR15442805
-fastq-dump SRR15442804
-fastq-dump SRR15442803
-fastq-dump SRR15442802
-fastq-dump SRR15442800
-fastq-dump SRR15442799
-fastq-dump SRR15442798
-fastq-dump SRR15442797
-fastq-dump SRR15442796
-fastq-dump SRR15442795
-fastq-dump SRR15442794
-fastq-dump SRR15442793
-fastq-dump SRR15442792
-fastq-dump SRR15442791
-fastq-dump SRR15442789
-fastq-dump SRR15442788
-fastq-dump SRR15442787
-fastq-dump SRR15442786
-fastq-dump SRR15442785
-fastq-dump SRR15442784
-fastq-dump SRR15442783
-fastq-dump SRR15442782
-fastq-dump SRR15442781
-fastq-dump SRR15442780
-fastq-dump SRR15442778
-fastq-dump SRR15442777
-fastq-dump SRR15442776
-fastq-dump SRR15442775
-fastq-dump SRR15442774
-fastq-dump SRR15442773
-fastq-dump SRR15442772
-fastq-dump SRR15442771
-fastq-dump SRR15442770
-fastq-dump SRR15442769
-fastq-dump SRR15442767
-fastq-dump SRR15442766
-fastq-dump SRR15442765
-fastq-dump SRR15442764
-fastq-dump SRR15442763
-fastq-dump SRR15442762
-fastq-dump SRR15442761
-fastq-dump SRR15442760
-fastq-dump SRR15442759
-fastq-dump SRR15442758
-fastq-dump SRR15442756
-fastq-dump SRR15442755
-fastq-dump SRR15442754
-fastq-dump SRR15442753
-fastq-dump SRR15442752
-fastq-dump SRR15442751
-fastq-dump SRR15442750
-fastq-dump SRR15442749
-fastq-dump SRR15442748
-fastq-dump SRR15442747
-fastq-dump SRR15442745
-fastq-dump SRR15442712
-fastq-dump SRR15442711
-fastq-dump SRR15442710
-fastq-dump SRR15442709
-fastq-dump SRR15442708
-fastq-dump SRR15442707
-fastq-dump SRR15442706
-fastq-dump SRR15442705
-fastq-dump SRR15442704
-fastq-dump SRR15442702
-fastq-dump SRR15442701
-fastq-dump SRR15442700
-fastq-dump SRR15442699
-fastq-dump SRR15442698
-fastq-dump SRR15442697
-fastq-dump SRR15442696
-fastq-dump SRR15442695
-fastq-dump SRR15442694
-fastq-dump SRR15442693
-fastq-dump SRR15442691
-fastq-dump SRR15442690
-fastq-dump SRR15442689
-fastq-dump SRR15442688
-fastq-dump SRR15442687
-fastq-dump SRR15442686
-fastq-dump SRR15442685
-fastq-dump SRR15442684
-fastq-dump SRR15442683
-fastq-dump SRR15442682
-fastq-dump SRR15442466
-fastq-dump SRR15442465
-fastq-dump SRR15442464
-fastq-dump SRR15442463
-fastq-dump SRR15442462
-fastq-dump SRR15442461
-fastq-dump SRR15442460
-fastq-dump SRR15442459
-fastq-dump SRR15442458
-fastq-dump SRR15442457
-fastq-dump SRR15442454
-fastq-dump SRR15442453
-fastq-dump SRR15442452
-fastq-dump SRR15442451
-fastq-dump SRR15442450
-fastq-dump SRR15442449
-fastq-dump SRR15442448
-fastq-dump SRR15442447
-fastq-dump SRR15442446
-fastq-dump SRR15442445
-fastq-dump SRR15442443
-fastq-dump SRR15442442
-fastq-dump SRR15442441
-fastq-dump SRR15442440
-fastq-dump SRR15442439
-fastq-dump SRR15442438
-fastq-dump SRR15442437
-fastq-dump SRR15442436
-fastq-dump SRR15442435
-fastq-dump SRR15442402
-fastq-dump SRR15442400
-fastq-dump SRR15442399
-fastq-dump SRR15442398
-fastq-dump SRR15442397
-fastq-dump SRR15442396
-fastq-dump SRR15442395
-fastq-dump SRR15442394
-fastq-dump SRR15442393
-fastq-dump SRR15442392
-fastq-dump SRR15442391
-fastq-dump SRR15442389
-fastq-dump SRR15442388
-fastq-dump SRR15442387
-fastq-dump SRR15442386
-fastq-dump SRR15442385
-fastq-dump SRR15442384
-fastq-dump SRR15442383
-fastq-dump SRR15442382
-fastq-dump SRR15442381
-fastq-dump SRR15442380
-fastq-dump SRR15442378
-fastq-dump SRR15442377
-fastq-dump SRR15442376
-fastq-dump SRR15442375
-fastq-dump SRR15442374
-fastq-dump SRR15442373
-fastq-dump SRR15442372
-fastq-dump SRR15442371
-fastq-dump SRR15442338
-fastq-dump SRR15442337
-fastq-dump SRR15442335
-fastq-dump SRR15442334
-fastq-dump SRR15442333
-fastq-dump SRR15442332
-fastq-dump SRR15442331
-fastq-dump SRR15442330
-fastq-dump SRR15442329
-fastq-dump SRR15442328
-fastq-dump SRR15442327
-fastq-dump SRR15442326
-fastq-dump SRR15442324
-fastq-dump SRR15442323
-fastq-dump SRR15442322
-fastq-dump SRR15442321
-fastq-dump SRR15442320
-fastq-dump SRR15442319
-fastq-dump SRR15442318
-fastq-dump SRR15442317
-fastq-dump SRR15442316
-fastq-dump SRR15442315
-fastq-dump SRR15442313
-fastq-dump SRR15442312
-fastq-dump SRR15442311
-fastq-dump SRR15442310
-fastq-dump SRR15442309
-fastq-dump SRR15442308
-fastq-dump SRR15442307
-fastq-dump SRR15442242
-fastq-dump SRR15442241
-fastq-dump SRR15442240
-fastq-dump SRR15442238
-fastq-dump SRR15442237
-fastq-dump SRR15442236
-fastq-dump SRR15442235
-fastq-dump SRR15442234
-fastq-dump SRR15442233
-fastq-dump SRR15442232
-fastq-dump SRR15442231
-fastq-dump SRR15442230
-fastq-dump SRR15442229
-fastq-dump SRR15442227
-fastq-dump SRR15442226
-fastq-dump SRR15442225
-fastq-dump SRR15442224
-fastq-dump SRR15442223
-fastq-dump SRR15442222
-fastq-dump SRR15442221
-fastq-dump SRR15442220
-fastq-dump SRR15442219
-fastq-dump SRR15442218
-fastq-dump SRR15442215
-fastq-dump SRR15442214
-fastq-dump SRR15442213
-fastq-dump SRR15442212
-fastq-dump SRR15442211
-fastq-dump SRR15442210
-fastq-dump SRR15442209
-fastq-dump SRR15442208
-fastq-dump SRR15442207
-fastq-dump SRR15442206
-fastq-dump SRR15442204
-fastq-dump SRR15442203
-fastq-dump SRR15442202
-fastq-dump SRR15442201
-fastq-dump SRR15442200
-fastq-dump SRR15442199
-fastq-dump SRR15442198
-fastq-dump SRR15442197
-fastq-dump SRR15442196
-fastq-dump SRR15442195
-fastq-dump SRR15442193
-fastq-dump SRR15442192
-fastq-dump SRR15442191
-fastq-dump SRR15442190
-fastq-dump SRR15442189
-fastq-dump SRR15442188
-fastq-dump SRR15442187
-fastq-dump SRR15442186
-fastq-dump SRR15442185
-fastq-dump SRR15442184
-fastq-dump SRR15442182
-fastq-dump SRR15442181
-fastq-dump SRR15442180
-fastq-dump SRR15442179
-fastq-dump SRR15442641
-fastq-dump SRR15442640
-fastq-dump SRR15442639
-fastq-dump SRR15442638
-fastq-dump SRR15442637
-fastq-dump SRR15442636
-fastq-dump SRR15442634
-fastq-dump SRR15442633
-fastq-dump SRR15442632
-fastq-dump SRR15442631
-fastq-dump SRR15442630
-fastq-dump SRR15442629
-fastq-dump SRR15442628
-fastq-dump SRR15442627
-fastq-dump SRR15442626
-fastq-dump SRR15442625
-fastq-dump SRR15442623
-fastq-dump SRR15442622
-fastq-dump SRR15442621
-fastq-dump SRR15442620
-fastq-dump SRR15442619
-fastq-dump SRR15442618
-fastq-dump SRR15442617
-fastq-dump SRR15442616
-fastq-dump SRR15442615
-fastq-dump SRR15442614
-fastq-dump SRR15442612
-fastq-dump SRR15442611
-fastq-dump SRR15442610
-fastq-dump SRR15442577
-fastq-dump SRR15442576
-fastq-dump SRR15442575
-fastq-dump SRR15442574
-fastq-dump SRR15442573
-fastq-dump SRR15442572
-fastq-dump SRR15442571
-fastq-dump SRR15442569
-fastq-dump SRR15442568
-fastq-dump SRR15442567
-fastq-dump SRR15442566
-fastq-dump SRR15442565
-fastq-dump SRR15442564
-fastq-dump SRR15442563
-fastq-dump SRR15442562
-fastq-dump SRR15442561
-fastq-dump SRR15442560
-fastq-dump SRR15442558
-fastq-dump SRR15442557
-fastq-dump SRR15442556
-fastq-dump SRR15442555
-fastq-dump SRR15442554
-fastq-dump SRR15442553
-fastq-dump SRR15442552
-fastq-dump SRR15442551
-fastq-dump SRR15442550
-fastq-dump SRR15442549
-fastq-dump SRR15442547
-fastq-dump SRR15442546
-fastq-dump SRR15442513
-fastq-dump SRR15442512
-fastq-dump SRR15442511
-fastq-dump SRR15442510
-fastq-dump SRR15442509
-fastq-dump SRR15442508
-fastq-dump SRR15442507
-fastq-dump SRR15442506
-fastq-dump SRR15442503
-fastq-dump SRR15442502
-fastq-dump SRR15442501
-fastq-dump SRR15442500
-fastq-dump SRR15442499
-fastq-dump SRR15442498
-fastq-dump SRR15442497
-fastq-dump SRR15442496
-fastq-dump SRR15442495
-fastq-dump SRR15442494
-fastq-dump SRR15442492
-fastq-dump SRR15442491
-fastq-dump SRR15442490
-fastq-dump SRR15442489
-fastq-dump SRR15442488
-fastq-dump SRR15442487
-fastq-dump SRR15442486
-fastq-dump SRR15442485
-fastq-dump SRR15442484
-fastq-dump SRR15442483
-fastq-dump SRR15442904
-fastq-dump SRR15442903
-fastq-dump SRR15442902
-fastq-dump SRR15442901
-fastq-dump SRR15442900
-fastq-dump SRR15442899
-fastq-dump SRR15442898
-fastq-dump SRR15442897
-fastq-dump SRR15442896
-fastq-dump SRR15442895
-fastq-dump SRR15442893
-fastq-dump SRR15442892
-fastq-dump SRR15442891
-fastq-dump SRR15442890
-fastq-dump SRR15442889
-fastq-dump SRR15442888
-fastq-dump SRR15442887
-fastq-dump SRR15442886
-fastq-dump SRR15442885
-fastq-dump SRR15442884
-fastq-dump SRR15442882
-fastq-dump SRR15442881
-fastq-dump SRR15442880
-fastq-dump SRR15442879
-fastq-dump SRR15442878
-fastq-dump SRR15442877
-fastq-dump SRR15442876
-fastq-dump SRR15442875
-fastq-dump SRR15442874
-fastq-dump SRR15442873
-fastq-dump SRR15442871
-fastq-dump SRR15442870
-fastq-dump SRR15442869
-fastq-dump SRR15442868
-fastq-dump SRR15442867
-fastq-dump SRR15442866
-fastq-dump SRR15442865
-fastq-dump SRR15442864
-fastq-dump SRR15442863
-fastq-dump SRR15442862
-fastq-dump SRR15442860
-fastq-dump SRR15442859
-fastq-dump SRR15442858
-fastq-dump SRR15442857
-fastq-dump SRR15442856
-fastq-dump SRR15442855
-fastq-dump SRR15442854
-fastq-dump SRR15442853
-fastq-dump SRR15442852
-fastq-dump SRR15442851
-fastq-dump SRR15442849
-fastq-dump SRR15442848
-fastq-dump SRR15442847
-fastq-dump SRR15442846
-fastq-dump SRR15442845
-fastq-dump SRR15442844
-fastq-dump SRR15442843
-fastq-dump SRR15442842
-fastq-dump SRR15442841
-fastq-dump SRR15442744
-fastq-dump SRR15442742
-fastq-dump SRR15442741
-fastq-dump SRR15442740
-fastq-dump SRR15442739
-fastq-dump SRR15442738
-fastq-dump SRR15442737
-fastq-dump SRR15442736
-fastq-dump SRR15442735
-fastq-dump SRR15442734
-fastq-dump SRR15442733
-fastq-dump SRR15442731
-fastq-dump SRR15442730
-fastq-dump SRR15442729
-fastq-dump SRR15442728
-fastq-dump SRR15442727
-fastq-dump SRR15442726
-fastq-dump SRR15442725
-fastq-dump SRR15442724
-fastq-dump SRR15442723
-fastq-dump SRR15442722
-fastq-dump SRR15442719
-fastq-dump SRR15442718
-fastq-dump SRR15442717
-fastq-dump SRR15442716
-fastq-dump SRR15442715
-fastq-dump SRR15442714
-fastq-dump SRR15442713
-fastq-dump SRR15442680
+module load SRAtoolkit
+prefetch -v PRJNA754140 ./
 
 ############################################
 ## -------------------------------------- ##
@@ -754,6 +48,7 @@ fastq-dump SRR15442680
 ## -------------------------------------- ##
 ############################################
 
+cd PRJNA754140
 mv EG_Sflab_241_1_USPD16092227-1_HV5CHBBXX_L2_1.fq.gz Raw_Reads/HV_001_01_forward.fq.gz
 mv EG_Sflab_241_2_USPD16092227-2_HV5CHBBXX_L2_1.fq.gz Raw_Reads/HV_001_02_forward.fq.gz
 mv EG_Sflab_241_3_USPD16092227-3_HV5CHBBXX_L2_1.fq.gz Raw_Reads/HV_001_03_forward.fq.gz
@@ -1462,6 +757,103 @@ mv HV030_22_CKDL200148806-1a-22_H7HJWBBXX_L5_1.fq.gz Raw_Reads/HV_030_22_forward
 mv HV030_23_CKDL200148806-1a-23_H7HJWBBXX_L5_1.fq.gz Raw_Reads/HV_030_23_forward.fq.gz
 mv HV030_25_CKDL200148806-1a-25_H7HJWBBXX_L5_1.fq.gz Raw_Reads/HV_030_25_forward.fq.gz
 mv HV030_27_CKDL200148806-1a-27_H7HJWBBXX_L5_1.fq.gz Raw_Reads/HV_030_27_forward.fq.gz
+mv HV031_01_CKDL200157731-1a-01_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_01_forward.fq.gz
+mv HV031_02_CKDL200157731-1a-02_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_02_forward.fq.gz
+mv HV031_03_CKDL200157731-1a-03_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_03_forward.fq.gz
+mv HV031_04_CKDL200157731-1a-04_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_04_forward.fq.gz
+mv HV031_05_CKDL200157731-1a-05_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_05_forward.fq.gz
+mv HV031_06_CKDL200157731-1a-06_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_06_forward.fq.gz
+mv HV031_07_CKDL200157731-1a-07_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_07_forward.fq.gz
+mv HV031_08_CKDL200157731-1a-08_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_08_forward.fq.gz
+mv HV031_09_CKDL200157731-1a-09_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_09_forward.fq.gz
+mv HV031_10_CKDL200157731-1a-10_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_10_forward.fq.gz
+mv HV031_11_CKDL200157731-1a-11_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_11_forward.fq.gz
+mv HV031_12_CKDL200157731-1a-12_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_12_forward.fq.gz
+mv HV031_13_CKDL200157731-1a-13_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_13_forward.fq.gz
+mv HV031_14_CKDL200157731-1a-14_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_14_forward.fq.gz
+mv HV031_15_CKDL200157731-1a-15_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_15_forward.fq.gz
+mv HV031_16_CKDL200157731-1a-16_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_16_forward.fq.gz
+mv HV031_18_CKDL200157731-1a-18_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_18_forward.fq.gz
+mv HV031_19_CKDL200157731-1a-19_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_19_forward.fq.gz
+mv HV031_20_CKDL200157731-1a-20_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_20_forward.fq.gz
+mv HV031_21_CKDL200157731-1a-21_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_21_forward.fq.gz
+mv HV031_22_CKDL200157731-1a-22_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_22_forward.fq.gz
+mv HV031_23_CKDL200157731-1a-23_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_23_forward.fq.gz
+mv HV031_25_CKDL200157731-1a-25_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_25_forward.fq.gz
+mv HV031_27_CKDL200157731-1a-27_H7WYVCCX2_L1_1.fq.gz Raw_Reads/HV_031_27_forward.fq.gz
+mv HV032_01_CKDL200157732-1a-01_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_01_forward.fq.gz
+mv HV032_02_CKDL200157732-1a-02_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_02_forward.fq.gz
+mv HV032_03_CKDL200157732-1a-03_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_03_forward.fq.gz
+mv HV032_04_CKDL200157732-1a-04_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_04_forward.fq.gz
+mv HV032_05_CKDL200157732-1a-05_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_05_forward.fq.gz
+mv HV032_06_CKDL200157732-1a-06_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_06_forward.fq.gz
+mv HV032_07_CKDL200157732-1a-07_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_07_forward.fq.gz
+mv HV032_08_CKDL200157732-1a-08_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_08_forward.fq.gz
+mv HV032_09_CKDL200157732-1a-09_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_09_forward.fq.gz
+mv HV032_10_CKDL200157732-1a-10_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_10_forward.fq.gz
+mv HV032_11_CKDL200157732-1a-11_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_11_forward.fq.gz
+mv HV032_12_CKDL200157732-1a-12_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_12_forward.fq.gz
+mv HV032_13_CKDL200157732-1a-13_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_13_forward.fq.gz
+mv HV032_14_CKDL200157732-1a-14_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_14_forward.fq.gz
+mv HV032_15_CKDL200157732-1a-15_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_15_forward.fq.gz
+mv HV032_16_CKDL200157732-1a-16_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_16_forward.fq.gz
+mv HV032_18_CKDL200157732-1a-18_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_18_forward.fq.gz
+mv HV032_19_CKDL200157732-1a-19_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_19_forward.fq.gz
+mv HV032_20_CKDL200157732-1a-20_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_20_forward.fq.gz
+mv HV032_21_CKDL200157732-1a-21_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_21_forward.fq.gz
+mv HV032_22_CKDL200157732-1a-22_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_22_forward.fq.gz
+mv HV032_23_CKDL200157732-1a-23_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_23_forward.fq.gz
+mv HV032_25_CKDL200157732-1a-25_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_25_forward.fq.gz
+mv HV032_27_CKDL200157732-1a-27_H7WYVCCX2_L2_1.fq.gz Raw_Reads/HV_032_27_forward.fq.gz
+mv HV033_01_CKDL200157733-1a-01_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_01_forward.fq.gz
+mv HV033_02_CKDL200157733-1a-02_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_02_forward.fq.gz
+mv HV033_03_CKDL200157733-1a-03_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_03_forward.fq.gz
+mv HV033_05_CKDL200157733-1a-05_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_05_forward.fq.gz
+mv HV033_06_CKDL200157733-1a-06_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_06_forward.fq.gz
+mv HV033_07_CKDL200157733-1a-07_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_07_forward.fq.gz
+mv HV033_08_CKDL200157733-1a-08_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_08_forward.fq.gz
+mv HV033_09_CKDL200157733-1a-09_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_09_forward.fq.gz
+mv HV033_10_CKDL200157733-1a-10_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_10_forward.fq.gz
+mv HV033_11_CKDL200157733-1a-11_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_11_forward.fq.gz
+mv HV033_13_CKDL200157733-1a-13_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_13_forward.fq.gz
+mv HV033_14_CKDL200157733-1a-14_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_14_forward.fq.gz
+mv HV033_15_CKDL200157733-1a-15_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_15_forward.fq.gz
+mv HV033_16_CKDL200157733-1a-16_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_16_forward.fq.gz
+mv HV033_18_CKDL200157733-1a-18_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_18_forward.fq.gz
+mv HV033_19_CKDL200157733-1a-19_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_19_forward.fq.gz
+mv HV033_20_CKDL200157733-1a-20_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_20_forward.fq.gz
+mv HV033_21_CKDL200157733-1a-21_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_21_forward.fq.gz
+mv HV033_22_CKDL200157733-1a-22_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_22_forward.fq.gz
+mv HV033_23_CKDL200157733-1a-23_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_23_forward.fq.gz
+mv HV033_25_CKDL200157733-1a-25_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_25_forward.fq.gz
+mv HV033_27_CKDL200157733-1a-27_H7WYVCCX2_L3_1.fq.gz Raw_Reads/HV_033_27_forward.fq.gz
+mv HV034_01_CKDL200157734-1a-01_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_01_forward.fq.gz
+mv HV034_02_CKDL200157734-1a-02_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_02_forward.fq.gz
+mv HV034_03_CKDL200157734-1a-03_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_03_forward.fq.gz
+mv HV034_04_CKDL200157734-1a-04_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_04_forward.fq.gz
+mv HV034_05_CKDL200157734-1a-05_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_05_forward.fq.gz
+mv HV034_06_CKDL200157734-1a-06_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_06_forward.fq.gz
+mv HV034_07_CKDL200157734-1a-07_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_07_forward.fq.gz
+mv HV034_08_CKDL200157734-1a-08_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_08_forward.fq.gz
+mv HV034_09_CKDL200157734-1a-09_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_09_forward.fq.gz
+mv HV034_10_CKDL200157734-1a-10_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_10_forward.fq.gz
+mv HV034_11_CKDL200157734-1a-11_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_11_forward.fq.gz
+mv HV034_12_CKDL200157734-1a-12_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_12_forward.fq.gz
+mv HV034_15_CKDL200157734-1a-15_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_15_forward.fq.gz
+mv HV034_16_CKDL200157734-1a-16_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_16_forward.fq.gz
+mv HV034_18_CKDL200157734-1a-18_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_18_forward.fq.gz
+mv HV034_19_CKDL200157734-1a-19_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_19_forward.fq.gz
+mv HV034_20_CKDL200157734-1a-20_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_20_forward.fq.gz
+mv HV034_21_CKDL200157734-1a-21_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_21_forward.fq.gz
+mv HV034_22_CKDL200157734-1a-22_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_22_forward.fq.gz
+mv HV034_23_CKDL200157734-1a-23_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_23_forward.fq.gz
+mv HV034_25_CKDL200157734-1a-25_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_25_forward.fq.gz
+mv HV034_27_CKDL200157734-1a-27_H7WYVCCX2_L4_1.fq.gz Raw_Reads/HV_034_27_forward.fq.gz
+
+
+
+
+
 
 ############################################
 ## -------------------------------------- ##
@@ -2177,6 +1569,98 @@ mv HV030_22_CKDL200148806-1a-22_H7HJWBBXX_L5_2.fq.gz Raw_Reads/HV_030_22_reverse
 mv HV030_23_CKDL200148806-1a-23_H7HJWBBXX_L5_2.fq.gz Raw_Reads/HV_030_23_reverse.fq.gz
 mv HV030_25_CKDL200148806-1a-25_H7HJWBBXX_L5_2.fq.gz Raw_Reads/HV_030_25_reverse.fq.gz
 mv HV030_27_CKDL200148806-1a-27_H7HJWBBXX_L5_2.fq.gz Raw_Reads/HV_030_27_reverse.fq.gz
+mv HV031_01_CKDL200157731-1a-01_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_01_reverse.fq.gz
+mv HV031_02_CKDL200157731-1a-02_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_02_reverse.fq.gz
+mv HV031_03_CKDL200157731-1a-03_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_03_reverse.fq.gz
+mv HV031_04_CKDL200157731-1a-04_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_04_reverse.fq.gz
+mv HV031_05_CKDL200157731-1a-05_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_05_reverse.fq.gz
+mv HV031_06_CKDL200157731-1a-06_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_06_reverse.fq.gz
+mv HV031_07_CKDL200157731-1a-07_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_07_reverse.fq.gz
+mv HV031_08_CKDL200157731-1a-08_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_08_reverse.fq.gz
+mv HV031_09_CKDL200157731-1a-09_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_09_reverse.fq.gz
+mv HV031_10_CKDL200157731-1a-10_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_10_reverse.fq.gz
+mv HV031_11_CKDL200157731-1a-11_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_11_reverse.fq.gz
+mv HV031_12_CKDL200157731-1a-12_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_12_reverse.fq.gz
+mv HV031_13_CKDL200157731-1a-13_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_13_reverse.fq.gz
+mv HV031_14_CKDL200157731-1a-14_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_14_reverse.fq.gz
+mv HV031_15_CKDL200157731-1a-15_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_15_reverse.fq.gz
+mv HV031_16_CKDL200157731-1a-16_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_16_reverse.fq.gz
+mv HV031_18_CKDL200157731-1a-18_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_18_reverse.fq.gz
+mv HV031_19_CKDL200157731-1a-19_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_19_reverse.fq.gz
+mv HV031_20_CKDL200157731-1a-20_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_20_reverse.fq.gz
+mv HV031_21_CKDL200157731-1a-21_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_21_reverse.fq.gz
+mv HV031_22_CKDL200157731-1a-22_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_22_reverse.fq.gz
+mv HV031_23_CKDL200157731-1a-23_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_23_reverse.fq.gz
+mv HV031_25_CKDL200157731-1a-25_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_25_reverse.fq.gz
+mv HV031_27_CKDL200157731-1a-27_H7WYVCCX2_L1_2.fq.gz Raw_Reads/HV_031_27_reverse.fq.gz
+mv HV032_01_CKDL200157732-1a-01_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_01_reverse.fq.gz
+mv HV032_02_CKDL200157732-1a-02_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_02_reverse.fq.gz
+mv HV032_03_CKDL200157732-1a-03_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_03_reverse.fq.gz
+mv HV032_04_CKDL200157732-1a-04_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_04_reverse.fq.gz
+mv HV032_05_CKDL200157732-1a-05_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_05_reverse.fq.gz
+mv HV032_06_CKDL200157732-1a-06_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_06_reverse.fq.gz
+mv HV032_07_CKDL200157732-1a-07_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_07_reverse.fq.gz
+mv HV032_08_CKDL200157732-1a-08_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_08_reverse.fq.gz
+mv HV032_09_CKDL200157732-1a-09_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_09_reverse.fq.gz
+mv HV032_10_CKDL200157732-1a-10_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_10_reverse.fq.gz
+mv HV032_11_CKDL200157732-1a-11_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_11_reverse.fq.gz
+mv HV032_12_CKDL200157732-1a-12_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_12_reverse.fq.gz
+mv HV032_13_CKDL200157732-1a-13_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_13_reverse.fq.gz
+mv HV032_14_CKDL200157732-1a-14_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_14_reverse.fq.gz
+mv HV032_15_CKDL200157732-1a-15_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_15_reverse.fq.gz
+mv HV032_16_CKDL200157732-1a-16_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_16_reverse.fq.gz
+mv HV032_18_CKDL200157732-1a-18_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_18_reverse.fq.gz
+mv HV032_19_CKDL200157732-1a-19_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_19_reverse.fq.gz
+mv HV032_20_CKDL200157732-1a-20_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_20_reverse.fq.gz
+mv HV032_21_CKDL200157732-1a-21_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_21_reverse.fq.gz
+mv HV032_22_CKDL200157732-1a-22_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_22_reverse.fq.gz
+mv HV032_23_CKDL200157732-1a-23_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_23_reverse.fq.gz
+mv HV032_25_CKDL200157732-1a-25_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_25_reverse.fq.gz
+mv HV032_27_CKDL200157732-1a-27_H7WYVCCX2_L2_2.fq.gz Raw_Reads/HV_032_27_reverse.fq.gz
+mv HV033_01_CKDL200157733-1a-01_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_01_reverse.fq.gz
+mv HV033_02_CKDL200157733-1a-02_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_02_reverse.fq.gz
+mv HV033_03_CKDL200157733-1a-03_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_03_reverse.fq.gz
+mv HV033_05_CKDL200157733-1a-05_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_05_reverse.fq.gz
+mv HV033_06_CKDL200157733-1a-06_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_06_reverse.fq.gz
+mv HV033_07_CKDL200157733-1a-07_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_07_reverse.fq.gz
+mv HV033_08_CKDL200157733-1a-08_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_08_reverse.fq.gz
+mv HV033_09_CKDL200157733-1a-09_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_09_reverse.fq.gz
+mv HV033_10_CKDL200157733-1a-10_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_10_reverse.fq.gz
+mv HV033_11_CKDL200157733-1a-11_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_11_reverse.fq.gz
+mv HV033_13_CKDL200157733-1a-13_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_13_reverse.fq.gz
+mv HV033_14_CKDL200157733-1a-14_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_14_reverse.fq.gz
+mv HV033_15_CKDL200157733-1a-15_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_15_reverse.fq.gz
+mv HV033_16_CKDL200157733-1a-16_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_16_reverse.fq.gz
+mv HV033_18_CKDL200157733-1a-18_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_18_reverse.fq.gz
+mv HV033_19_CKDL200157733-1a-19_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_19_reverse.fq.gz
+mv HV033_20_CKDL200157733-1a-20_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_20_reverse.fq.gz
+mv HV033_21_CKDL200157733-1a-21_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_21_reverse.fq.gz
+mv HV033_22_CKDL200157733-1a-22_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_22_reverse.fq.gz
+mv HV033_23_CKDL200157733-1a-23_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_23_reverse.fq.gz
+mv HV033_25_CKDL200157733-1a-25_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_25_reverse.fq.gz
+mv HV033_27_CKDL200157733-1a-27_H7WYVCCX2_L3_2.fq.gz Raw_Reads/HV_033_27_reverse.fq.gz
+mv HV034_01_CKDL200157734-1a-01_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_01_reverse.fq.gz
+mv HV034_02_CKDL200157734-1a-02_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_02_reverse.fq.gz
+mv HV034_03_CKDL200157734-1a-03_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_03_reverse.fq.gz
+mv HV034_04_CKDL200157734-1a-04_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_04_reverse.fq.gz
+mv HV034_05_CKDL200157734-1a-05_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_05_reverse.fq.gz
+mv HV034_06_CKDL200157734-1a-06_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_06_reverse.fq.gz
+mv HV034_07_CKDL200157734-1a-07_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_07_reverse.fq.gz
+mv HV034_08_CKDL200157734-1a-08_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_08_reverse.fq.gz
+mv HV034_09_CKDL200157734-1a-09_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_09_reverse.fq.gz
+mv HV034_10_CKDL200157734-1a-10_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_10_reverse.fq.gz
+mv HV034_11_CKDL200157734-1a-11_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_11_reverse.fq.gz
+mv HV034_12_CKDL200157734-1a-12_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_12_reverse.fq.gz
+mv HV034_15_CKDL200157734-1a-15_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_15_reverse.fq.gz
+mv HV034_16_CKDL200157734-1a-16_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_16_reverse.fq.gz
+mv HV034_18_CKDL200157734-1a-18_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_18_reverse.fq.gz
+mv HV034_19_CKDL200157734-1a-19_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_19_reverse.fq.gz
+mv HV034_20_CKDL200157734-1a-20_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_20_reverse.fq.gz
+mv HV034_21_CKDL200157734-1a-21_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_21_reverse.fq.gz
+mv HV034_22_CKDL200157734-1a-22_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_22_reverse.fq.gz
+mv HV034_23_CKDL200157734-1a-23_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_23_reverse.fq.gz
+mv HV034_25_CKDL200157734-1a-25_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_25_reverse.fq.gz
+mv HV034_27_CKDL200157734-1a-27_H7WYVCCX2_L4_2.fq.gz Raw_Reads/HV_034_27_reverse.fq.gz
 
 ############################################
 ## -------------------------------------- ##
