@@ -16,8 +16,8 @@
  #Sample file names were changed to be "SampleID"_forward.fq (e.g. for sample HV_001_01 reads it would be ./Raw_Reads/HV_001_01_forward.fq and ./Raw_Reads/HV_001_01_reverse.fq
 
 #Output Notes:
-#This pipeline will generate a fasta file containing virome contigs (unmapped_1000_contigs.fa)
-#The next step in this pipeline is the next step in pipeline is 3. Contig Mapping (3_Virome_Contig_Mapping.sh)
+#This pipeline will generate two fasta file containing virome contigs (META_unmapped_1000_contigs.fa and SAMPLE_unmapped_1000_contigs.fa)
+#The next step in this pipeline is the next step in pipeline is 3. Contig Mapping (03_Identify_Circular_Virus.sh)
 
 #General Notes:
 #This pipeline is designed to be run using the Holland Computing Center at the University of Nebraska. Some tool commands may differ depending on installation of the tool. Please refer to the listed Githubs for each tool used as mentioned in script for further information if issues arise 
@@ -172,6 +172,7 @@ perl removesmalls.pl 1000 ./META_CONTIGS.fa  > ./META_1000_CONTIGS.fa
 
 megahit -1 HV_001_01_final_R1.fastq -2 HV_001_01_final_R2.fastq -o MEGAHIT_OUTPUT_HV_001_01 -t 36 --presets meta-large
 cp MEGAHIT_OUTPUT_HV_001_01/final_contigs.fa > ./HV_001_01_final_contigs.fa
+sed -i 's/>/>HV_001_01_/g' HV_001_01_final.contigs.fa
 
 ## --------------------------------------
 ## --- Quality Evaluation of Assembly ---
