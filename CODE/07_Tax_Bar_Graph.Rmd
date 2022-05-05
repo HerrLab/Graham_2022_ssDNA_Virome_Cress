@@ -1,0 +1,42 @@
+---
+title: "07_Tax_Bar_Graph"
+output: html_document
+author: "Ema H Graham"
+---
+For Questions Email: ema.graham@huskers.unl.edu
+
+## Description
+
+Input Notes: 
+- This uses the counts of types of small cicular viruses as determined from the gene bank files from CENOTE-TAKER2
+
+Output Notes: 
+Generates the bargraph shown in Fig 1A in manuscript.  
+
+```{r}
+marker_bar <- read.table(text="
+Taxonomy, Genomes, DNA
+Cressdnaviricota, 272, ssDNA
+Anellovirus, 2, Unclassified
+Inoviridae, 25, ssDNA
+Papillomaviridae, 27, ssDNA
+Polyomaviridae, 2, ssDNA
+Microviridae, 67, ssDNA
+Siphoviridae, 18, dsDNA
+Myoviridae, 6, dsDNA
+Rountreeviridae, 2, dsDNA
+", header=TRUE, sep=",")
+
+my_bar<-marker_bar %>%
+  mutate(Taxonomy = fct_reorder(Taxonomy, desc(Genomes))) %>%
+  ggplot( aes(x=Taxonomy, y=Genomes)) +
+    geom_bar(stat="identity", fill = "black") +
+   scale_y_continuous(expand = expansion(mult = c(0, 0.05)))+
+  expand_limits(y = 300) +
+    coord_flip() +
+    xlab("") +
+   ylab("Number of Compete Genomes") 
+
+BAR_figure<-my_bar+geom_text(aes(label = paste("n=",format(Genomes, nsmall = 1))), hjust=-0.5, colour = "black") + theme_minimal_vgrid()
+ggsave("BAR_FIGURE.pdf", BAR_figure,width = 10, height = 5, units = "in",dpi = 600, pointsize=12)
+```
