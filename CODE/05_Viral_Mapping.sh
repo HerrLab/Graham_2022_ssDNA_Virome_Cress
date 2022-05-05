@@ -14,7 +14,7 @@
 
 #Output Notes:
 #This pipeline will generate a read abundance table that can be used for input into Phyloseq in R (counts2_bowtie.txt)
-#The next step in this pipeline is the next step in pipeline is 06. Heatmap_Cress (05_Heatmap_Cress.Rmd)
+#The next step in this pipeline is the next step in pipeline is 06. Heatmap_Cress (06_Heatmap_Cress.Rmd)
 
 #General Notes:
 #This pipeline is designed to be run using the Holland Computing Center at the University of Nebraska. Some tool commands may differ depending on installation of the tool. Please refer to the listed Githubs for each tool used as mentioned in script for further information if issues arise 
