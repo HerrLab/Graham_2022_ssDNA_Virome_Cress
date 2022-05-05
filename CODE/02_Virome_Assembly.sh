@@ -158,8 +158,48 @@ quast.py ./MEGAHIT_OUTPUT_ALL/final_contigs.fa -o QUAST_OUTPUT
 #All contigs smaller than 1000 bp in length were removed from the meta-assembly
 #removesmalls.pl perl script can be found at: https://github.com/drtamermansour/p_asteroides/blob/master/scripts/removesmalls.pl
 
-cp MEGAHIT_OUTPUT_ALL/final_contigs.fa > MEGAHIT_OUTPUT_ALL/ALL_CONTIGS.fa 
-perl removesmalls.pl 1000 MEGAHIT_OUTPUT_ALL/ALL_CONTIGS.fa  > ./ALL_1000_CONTIGS.fa
+cp MEGAHIT_OUTPUT_ALL/final_contigs.fa > ./META_CONTIGS.fa 
+perl removesmalls.pl 1000 ./META_CONTIGS.fa  > ./META_1000_CONTIGS.fa
+
+#################################################
+## ------------------------------------------- ##
+## -- De novo Virome Within Sample-Assembly -- ##
+## ------------------------------------------- ##
+#################################################
+
+#Assemblies were also preformed on a sample by sample basis to reduce loss data due to viral sequence varients across samples
+#This was performed for each sample (not for negative controls) so repeat this step for each individual sample. Here we use the example of using sample HV_001_01
+
+megahit -1 HV_001_01_final_R1.fastq -2 HV_001_01_final_R2.fastq -o MEGAHIT_OUTPUT_HV_001_01 -t 36 --presets meta-large
+cp MEGAHIT_OUTPUT_HV_001_01/final_contigs.fa > ./HV_001_01_final_contigs.fa
+
+## --------------------------------------
+## --- Quality Evaluation of Assembly ---
+## --------------------------------------
+
+#QUAST v.5.0.2 was run on the resulting assembly output to assess the meta-assembly quality
+#QUAST can be found at: https://github.com/ablab/quast
+
+quast.py ./MEGAHIT_OUTPUT_HV_001_01/final_contigs.fa -o QUAST_OUTPUT_HV_001_01
+
+## ----------------------------------------
+## --- Combine Within Sample-Assemblies ---
+## ----------------------------------------
+
+#Once this processes has been completed for all samples (as was shown with sample HV_001_01 all within sample contigs will be combined together into one file
+
+cat *final_contigs.fa SAMPLE_CONTIGS.fa
+
+####################################################
+## ---------------------------------------------- ##
+## - Generate Greater Than >1kb Sample-Assembly - ##
+## ---------------------------------------------- ##
+####################################################
+
+#All contigs smaller than 1000 bp in length were removed from the within sample-assembly
+#removesmalls.pl perl script can be found at: https://github.com/drtamermansour/p_asteroides/blob/master/scripts/removesmalls.pl
+
+perl removesmalls.pl 1000 ./SAMPLE_CONTIGS.fa  > ./SAMPLE_1000_CONTIGS.fa
 
 ########################################################
 ## -------------------------------------------------- ##
@@ -196,33 +236,50 @@ perl removesmalls.pl 1000 CON_MEGAHIT_OUTPUT/CON_CONTIGS.fa > ./CON_1000_CONTIGS
 #############################################
 
 #Negative control contigs were used as a reference and any contigs from the overall assembly that mapped to control reads were removed 
+#This was preformed for both the meta-assembly and the within sample-assembly
 
 #BWA v.0.7 was used for mapping of overall contigs to the negative contigs
 #BWA can be found at: https://github.com/lh3/bwa
 
 bwa index CON_1000_CONTIGS.fa
-bwa mem CON_1000_CONTIGS.fa ALL_1000_CONTIGS.fa > ALL_1000_CONTIGS.sam
+bwa mem CON_1000_CONTIGS.fa META_1000_CONTIGS.fa > META_1000_CONTIGS.sam
+bwa mem CON_1000_CONTIGS.fa SAMPLE_1000_CONTIGS.fa > SAMPLE_1000_CONTIGS.sam
 
 #Samtools was used to manipulate the sam file and pull out all unmapped contigs to be used for downstream processing
 #Samtools can be found at: https://github.com/samtools/samtools
 
 samtools faidx CON_1000_CONTIGS.fa
-samtools import CON_1000_CONTIGS.fa.fai ALL_1000_CONTIGS.sam ALL_1000_CONTIGS.bam
-samtools sort -O BAM -o ALL_1000_CONTIGS.sorted.bam ALL_1000_CONTIGS.bam
-samtools index ALL_1000_CONTIGS.sorted.bam
-samtools idxstats ALL_1000_CONTIGS.sorted.bam > ALL_1000_CONTIGS.sorted.idxstats.txt
+
+samtools import CON_1000_CONTIGS.fa.fai META_1000_CONTIGS.sam META_1000_CONTIGS.bam
+samtools sort -O BAM -o META_1000_CONTIGS.sorted.bam META_1000_CONTIGS.bam
+samtools index META_1000_CONTIGS.sorted.bam
+samtools idxstats META_1000_CONTIGS.sorted.bam > META_1000_CONTIGS.sorted.idxstats.txt
+
+samtools import CON_1000_CONTIGS.fa.fai SAMPLE_1000_CONTIGS.sam SAMPLE_1000_CONTIGS.bam
+samtools sort -O BAM -o SAMPLE_1000_CONTIGS.sorted.bam SAMPLE_1000_CONTIGS.bam
+samtools index SAMPLE_1000_CONTIGS.sorted.bam
+samtools idxstats SAMPLE_1000_CONTIGS.sorted.bam > SAMPLE_1000_CONTIGS.sorted.idxstats.txt
+
 
 #Pull out mapped reads
 
-samtools view -b -F 4 -b ALL_1000_CONTIGS.sorted.bam > mapped_1000_contigs.bam
-samtools fasta mapped_1000_contigs.bam > mapped_1000_contigs.fa
-samtools view -c -F 4 ALL_1000_CONTIGS.sorted.bam >> num_mapped_reads_all_1000.txt
+samtools view -b -F 4 -b META_1000_CONTIGS.sorted.bam > META_mapped_1000_contigs.bam
+samtools fasta META_mapped_1000_contigs.bam > META_mapped_1000_contigs.fa
+samtools view -c -F 4 META_1000_CONTIGS.sorted.bam >> META_num_mapped_reads_all_1000.txt
+
+samtools view -b -F 4 -b SAMPLE_1000_CONTIGS.sorted.bam > SAMPLE_mapped_1000_contigs.bam
+samtools fasta SAMPLE_mapped_1000_contigs.bam > SAMPLE_mapped_1000_contigs.fa
+samtools view -c -F 4 SAMPLE_1000_CONTIGS.sorted.bam >> SAMPLE_num_mapped_reads_all_1000.txt
 
 #Pull out unmapped reads
 
-samtools view -b -f 4 -b ALL_1000_CONTIGS.sorted.bam > unmapped_1000_contigs.bam
-samtools fasta unmapped_1000_contigs.bam > unmapped_1000_contigs.fa
-samtools view -c -f 4 ALL_1000_CONTIGS.sorted.bam >> num_unmapped_reads_all_1000.txt
+samtools view -b -f 4 -b META_1000_CONTIGS.sorted.bam > META_unmapped_1000_contigs.bam
+samtools fasta META_unmapped_1000_contigs.bam > META_unmapped_1000_contigs.fa
+samtools view -c -f 4 META_1000_CONTIGS.sorted.bam >> META_num_unmapped_reads_all_1000.txt
 
-#### The output of unmapped_1000_contigs.fa will be used for downstream processing ####
-#### The next step in pipeline is 3. Contig Mapping (3_Virome_Contig_Mapping.sh) ####
+samtools view -b -f 4 -b SAMPLE_1000_CONTIGS.sorted.bam > SAMPLE_unmapped_1000_contigs.bam
+samtools fasta SAMPLE_unmapped_1000_contigs.bam > SAMPLE_unmapped_1000_contigs.fa
+samtools view -c -f 4 SAMPLE_1000_CONTIGS.sorted.bam >> SAMPLE_num_unmapped_reads_all_1000.txt
+
+#### The output of META_unmapped_1000_contigs.fa and SAMPLE_unmapped_1000_contigs.fa will be used for downstream processing ####
+#### The next step in pipeline is 3. Contig Mapping (03_Identify_Circular_Virus.sh) ####
